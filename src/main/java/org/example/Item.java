@@ -8,6 +8,7 @@ public abstract class Item {
         this.strengthBonus = bonusStrength;
         this.craftBonus = bonusCraft;
     }
+
     public String getName() {
         return itemName;
     }
